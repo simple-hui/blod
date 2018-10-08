@@ -74,7 +74,7 @@ self.clients.claim()：在 activate 事件回调中执行该方法表示取得�
             e.respondWith(
                 caches.open(imgCacheName).then(function(cache){
                      return fetch(e.request).then(function (response){
-                        cache.put(e.request.url, response.clone()); // 每请求一次缓存更新一次新加载的图片
+                        cache.put(e.request.url, response.clone()); //  每请求一次缓存更新一次新加载的图片
                         return response;
                     });
                 })
