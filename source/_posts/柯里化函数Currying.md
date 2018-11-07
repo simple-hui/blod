@@ -1,6 +1,6 @@
 ---
 title: 柯里化函数Currying
-date: 2018-09-19 10:30:14
+date: 2018-09-12 10:30:14
 tags: JavaScript
 ---
 ## 柯里化函数
