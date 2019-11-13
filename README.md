@@ -1,5 +1,13 @@
 记录主题配置
 # ========== Profile ========== #
+# 创建新的md文件
+```bash
+  hexo new [layout] <title>
+```
+# 部署文件至github
+```bash
+  hexo deploy
+```
 # avatar
 avatar: /avatar/Misaka.jpg
 # author name
