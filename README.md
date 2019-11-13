@@ -6,6 +6,7 @@
 ```
 # 部署文件至github
 ```bash
+  hexo generate
   hexo deploy
 ```
 # avatar
